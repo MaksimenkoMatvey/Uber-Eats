@@ -1,0 +1,459 @@
+/* Модульная сетка */
+    .col-1 {flex-basis: 8.3333% };
+    .col-2 {flex-basis: 16.6667% };
+    .col-3 {flex-basis: 24.9999% };
+    .col-4 {flex-basis: 33.3333% }
+    .col-5 {flex-basis: 41.6665% };
+    .col-6 {flex-basis: 49.9998% };
+    .col-7 {flex-basis: 58.3331% };
+    .col-8 {flex-basis: 66.6661% };
+    .col-9 {flex-basis: 74.9997% };
+    .col-10 {flex-basis: 83.3333% };
+    .col-11 {flex-basis: 91.6663% };
+    .col-12 {flex-basis: 100% };
+
+/* @media (max-width: 767px) {
+    .col-xs-1 {flex-basis: 8.3333% };
+    .col-xs-2 {flex-basis: 16.6667% };
+    .col-xs-3 {flex-basis: 24.9999% };
+    .col-xs-4 {flex-basis: 33.3333% }
+    .col-xs-5 {flex-basis: 41.6665% };
+    .col-xs-6 {flex-basis: 49.9998% };
+    .col-xs-7 {flex-basis: 58.3331% };
+    .col-xs-8 {flex-basis: 66.6661% };
+    .col-xs-9 {flex-basis: 74.9997% };
+    .col-xs-10 {flex-basis: 83.3333% };
+    .col-xs-11 {flex-basis: 91.6663% };
+    .col-xs-12 {flex-basis: 100% };
+}
+
+
+
+@media (min-width: 992px) {
+    .col-md-1 {flex-basis: 8.3333% };
+    .col-md-2 {flex-basis: 16.6667% };
+    .col-md-3 {flex-basis: 24.9999% };
+    .col-md-4 {flex-basis: 33.3333% }
+    .col-md-5 {flex-basis: 41.6665% };
+    .col-md-6 {flex-basis: 49.9998% };
+    .col-md-7 {flex-basis: 58.3331% };
+    .col-md-8 {flex-basis: 66.6661% };
+    .col-md-9 {flex-basis: 74.9997% };
+    .col-md-10 {flex-basis: 83.3333% };
+    .col-md-11 {flex-basis: 91.6663% };
+    .col-md-12 {flex-basis: 100% };
+} */
+
+
+    /* .col-xl-1 {flex-basis: 8.3333% };
+    .col-xl-2 {flex-basis: 16.6667% };
+    .col-xl-3 {flex-basis: 24.9999% };
+    .col-xl-4 {flex-basis: 33.3333% }
+    .col-xl-5 {flex-basis: 41.6665% };
+    .col-xl-6 {flex-basis: 49.9998% };
+    .col-xl-7 {flex-basis: 58.3331% };
+    .col-xl-8 {flex-basis: 66.6661% };
+    .col-xl-9 {flex-basis: 74.9997% };
+    .col-xl-10 {flex-basis: 83.3333% };
+    .col-xl-11 {flex-basis: 91.6663% };
+    .col-xl-12 {flex-basis: 100% }; */
+
+body{
+    margin: 0; 
+}
+.main{
+    width: 1124px;
+    height: 100%;
+    margin: 0 auto;
+    background:#FFFFFF;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+      background: #F2F2F2;
+  }
+
+  .container__menu{
+      background: #FFFFFF;
+  }
+
+  
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    margin-left: 6px;
+}
+div.col-4{
+    /* margin-left: 6px; */
+    height: 366px;
+    width: 308px;
+    margin-top: 16px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 81px;
+    margin-right: 87px;
+    justify-content: space-between;
+    
+    
+}
+
+
+
+
+.container{
+    width:1124px;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+
+.container.header{
+    background: #FFFFFF;
+    box-shadow: 0 0px 16px rgba(38, 38, 38, 0.16);
+    position: relative;
+}
+
+button{
+    
+}
+
+strong{
+    color: black;
+}
+
+.logo{
+    float: left;
+    width: 121px;
+    height: 13px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 81px;
+}
+
+p.to{
+    display: inline-block;
+    margin-left: 7px;
+    margin-right: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626262;
+}
+
+
+button.asap{
+    width: 65px;
+    height: 40px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #E0E0E0;
+    margin-left: 123px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-right: -4px;
+    font-family: 'Roboto', sans-serif;
+    padding: 8px 12px 8px 12px;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.input{
+    position: relative;
+    width: 290px;
+    height: 40px;
+    border: 1px solid #E0E0E0;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2px;
+    border: 1px solid #E0E0E0;
+    padding: 8px 0px 8px 36px;
+    margin: 17px 92px 15px -4px;
+    font-size: 16px;
+    line-height: 24px;
+    background: url(Combined-Shape.png) no-repeat 12px 12px;
+}
+
+.container.header:before{
+    content: url(Oval-3.png);
+    position: absolute;
+    top: 25px;
+    right: 685px;
+    width: 5px;
+    height: 5px;
+    pointer-events: none;
+}
+
+
+.sign_in{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 80px;
+    height: 40px;
+    line-height: 24px;
+    border-radius: 2px;
+    border: 1px solid #E0E0E0;
+    background-color: #fff;
+    padding: 8px 0px 8px 0px;
+    margin: 16px 16px 16px -4px;
+    font-size: 13px;
+}
+
+.register{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    width: 80px;
+    height: 40px;
+    line-height: 24px;
+    border-radius: 2px;
+    border: 1px solid #E0E0E0;
+    background-color :#262626;
+    padding: 8px 15.5px 8px 15.5px;
+    margin: 16px 16px 16px -5px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.basket{
+    margin-bottom: -32px;
+    margin-right: -87px;
+    margin-left: -4px;
+
+   
+}
+
+.search{
+    width: 951px;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.search_place{
+    width: 951px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight:  500 ;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.5;
+
+}
+
+
+form button {
+    border: none;
+    height: 42px;
+    width: 42px;
+    position: absolute;
+    top: -9px;
+    left: -20px;
+    cursor: pointer;
+    background: none;
+    
+  }
+
+.fa-search {
+    color:#DADADA;
+}
+
+.hr_search{
+    margin-bottom: 56px;
+    width: 956px;
+}
+
+.container__menu{
+    width: 1124px;
+    margin: 0 auto;
+    /* margin-left: 81px; */
+    /* margin-right: -87px; */
+}
+
+p.restaurants{
+    font-family: 'Roboto', sans-serif;
+    font-weight:  400 ;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: left;
+    margin-left: 81px;
+    margin-bottom: 0px;
+}
+
+.company{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.product{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.cook_time{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+footer{
+    height: 552px;
+    width: 1124px;
+    margin: 0 auto;
+    background: #262626;
+    margin-top: 80px;
+}
+
+.footer-logo{
+    margin-left: 81px;
+    margin-right: -87px;
+    padding-top: 56px;
+}
+
+.footer-hr{
+    width: 951px;
+    height: 1px;
+    margin-left: 81px;
+    margin-top: 40px;
+    opacity: 0.4;
+    background: #FFFFFF;
+    /* margin-bottom: 0; */
+}
+
+.select{
+    position: relative;
+}
+
+.select select{
+    width: 227px;
+    height: 40px;
+    /* margin-left: 81px; */
+    background: #3B3B3B;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    outline: none;
+    border: none;
+    -webkit-appearance: button;
+}
+
+.select:before{
+    content: url(arrow-down.svg);
+    position: absolute;
+    top: 28px;
+    right: 98px;
+    width: 14px;
+    height: 8px;
+    pointer-events: none;
+}
+
+.language{
+    margin-top: 16px;
+    padding-left: 40px;
+    
+}
+
+.ubereats{
+    margin-top: 33px;
+    
+}
+
+.fab{
+    color: #FFFFFF;
+    margin-left: 4px;
+    
+}
+
+.sn-icons{
+    margin-top: 20px;
+}
+
+div.links{
+    height: 140px;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 23px;
+    margin-left: 0;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+div.select.col-4{
+    height: 140px;
+}
+
+.links-hr{
+    width: 951px;
+    height: 1px;
+    margin-left: 81px;
+    margin-top: 48px;
+    opacity: 0.4;
+    background: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.row.store{
+    display: flex;
+    justify-content: center;
+    margin-top: 42px;
+}
+
+.apple{
+    margin-right: 20px;
+}
+
+.google_play{
+    margin-left: 21px;
+}
+
+.store-hr{
+    width: 951px;
+    height: 1px;
+    margin-left: 81px;
+    margin-top: 40px;
+    opacity: 0.4;
+    background: #FFFFFF;
+    margin-bottom: 0;
+}
+
+/* АДАПТИВ */
+
+/* @media (min-width: 768px) {
+    
+.logo{
+    margin-left: 8px;
+}
+
+button.asap{
+    margin-left: 23px;
+}
+} */
