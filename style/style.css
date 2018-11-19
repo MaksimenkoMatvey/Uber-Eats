@@ -96,13 +96,8 @@ div.col-4{
     flex-direction: row;
     margin-left: 81px;
     margin-right: 87px;
-    justify-content: space-between;
-    
-    
+    justify-content: space-between; 
 }
-
-
-
 
 .container{
     width:1124px;
@@ -447,26 +442,158 @@ div.select.col-4{
 
 /* АДАПТИВ */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 805px) {
+.main {
+    width: 768px;
+    background-color: #F2F2F2;
+}
+
+.container.header{
+    width: 768px;
+}
+
+.container__menu{
+    background-color: #F2F2F2;
+}
+.logo{
+    width: 107px;
+    height: 11px;
+}
+
+.col-md-6 {
+    flex-basis: 49.9998%; 
+    margin: 0;
   
-    .col-md-1 {flex-basis: 8.3333% };
-    .col-md-2 {flex-basis: 16.6667% };
-    .col-md-3 {flex-basis: 24.9999% };
-    .col-md-4 {flex-basis: 33.3333% }
-    .col-md-5 {flex-basis: 41.6665% };
-    .col-md-6 {flex-basis: 49.9998% };
-    .col-md-7 {flex-basis: 58.3331% };
-    .col-md-8 {flex-basis: 66.6661% };
-    .col-md-9 {flex-basis: 74.9997% };
-    .col-md-10 {flex-basis: 83.3333% };
-    .col-md-11 {flex-basis: 91.6663% };
-    .col-md-12 {flex-basis: 100% };
-    
+}
+
 .logo{
     margin-left: 8px;
 }
 
+div.col-4 {
+    width: 250px;
+    margin-left: 0px;
+}
+
 button.asap{
     margin-left: 23px;
+    padding: 8px 9px 8px 9px;
 }
+
+div.container{
+    background-color: #F2F2F2;
 }
+
+.input{
+    width: 215px;
+    font-size: 13px;
+    margin-right: 88px;
+}
+
+.container.header:before{  
+    top: 25px;
+    right: 515px;
+}
+
+.container{
+    width: 768px;
+}
+
+.hr_search{
+    width: 752px;
+    color: #757575;
+}
+
+.fa-search{
+    margin-left: 8px;
+}
+
+.search_place{
+    width: 752px;
+    background: #F2F2F2;
+}
+
+.search{
+    width: 752px;
+}
+
+.container__menu{
+    width: 768px;
+}
+
+p.restaurants{
+    width: 207px;
+    height: 34px;
+    margin-left: 8px;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+img.macdonalds, .dimsum, .dvizhok, .nha, .dzu, .cinnabon, .pizzalove, .zu_cafe, .bar_bq_cafe{
+    width: 376px;
+    height: 256px;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+p.company, .product, .cook_time{
+    margin-left: 8px;
+}
+
+.footer{
+    margin-top: 68px;
+}
+
+.footer-logo{
+    margin-left: 8px;
+    margin-right: 0;
+}
+
+footer{
+    width: 768px;
+}
+
+.footer-hr{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 751px;
+}
+
+.select select{
+    width: 176px;
+}
+
+.language, .ubereats, .sn-icons{
+    margin-left: 8px;
+}
+
+.select:before {  
+    top: 26px;
+    right: 75px;
+} 
+
+.links-hr{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 751px;
+}
+
+.store-hr{
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 751px;
+}
+
+div.links{
+    height: 85px;
+}
+
+a.about_uber{
+    padding-left: 8px;
+}
+
+}
+
